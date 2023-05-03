@@ -1,0 +1,12 @@
+scipy
+scikit-image
+tifffile
+gdown
+opencv-python
+numpy
+gradio
+oci
+pandas
+pillow
+pybase64
+matplotlib
