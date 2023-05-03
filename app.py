@@ -224,4 +224,4 @@ with gr.Blocks() as demo:
         button_1.click(predict_image, inputs=[image_input], outputs=[image_output, results_df])
         #button_2.click(predict_speech, inputs=[input_recording], outputs=[transcription, key_phrases, sentiment, neg_aspects])
             
-demo.launch(debug=True, server_name="0.0.0.0") #width=800, height=1100, 
+demo.launch(server_name="0.0.0.0", server_port=8080) #width=800, height=1100, 
